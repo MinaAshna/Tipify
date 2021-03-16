@@ -92,7 +92,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
   }
 
   private func calculateTotalAmount() {
-    var totalAmount: Double = 0
+    var totalAmount = 0.0
 
     // 1
     if let billValue = Double(billTextFieldValue) {
